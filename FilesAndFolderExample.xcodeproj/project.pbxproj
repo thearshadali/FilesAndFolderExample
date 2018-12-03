@@ -22,6 +22,7 @@
 		BF231B0321B412E00047F17B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF231B0621B412E00047F17B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF231B0821B412E00047F17B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF2F9A1721B435DF00810F09 /* FilesAndFolderExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FilesAndFolderExample.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 			children = (
 				BF231AFB21B412DE0047F17B /* FilesAndFolderExample */,
 				BF231AFA21B412DE0047F17B /* Products */,
+				BF2F9A1421B435DA00810F09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +56,7 @@
 		BF231AFB21B412DE0047F17B /* FilesAndFolderExample */ = {
 			isa = PBXGroup;
 			children = (
+				BF2F9A1721B435DF00810F09 /* FilesAndFolderExample.entitlements */,
 				BF231AFC21B412DE0047F17B /* AppDelegate.swift */,
 				BF231AFE21B412DE0047F17B /* ViewController.swift */,
 				BF231B0021B412DE0047F17B /* Main.storyboard */,
@@ -62,6 +65,13 @@
 				BF231B0821B412E00047F17B /* Info.plist */,
 			);
 			path = FilesAndFolderExample;
+			sourceTree = "<group>";
+		};
+		BF2F9A1421B435DA00810F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +106,14 @@
 				TargetAttributes = {
 					BF231AF821B412DE0047F17B = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
